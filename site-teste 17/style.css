@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.div-1 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFFD92;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div-1-left-fotos {
+    position: relative;
+}
+
+.div-1-left-fotos input {
+    position: absolute;
+    margin-top: -460px;
+    margin-left: 30px;
+    height: 50px;
+    padding: 20px 0px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.div-1-left-fotos input::placeholder {
+    color: #6e0f3c;
+}
+
+.div-1-left-salada img {
+    height: 500px;
+    width: 350px;
+}
+
+.div-1-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-1-right-txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 550px;
+}
+
+.div-1-right-txt-h1 {
+    font-size: 30px;
+    color: #C31952;
+}
+
+.div-1-right-txt-p {
+    margin-top: 15px;
+    width: 390px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    color: #C31952;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.103);
+}
+
+.div-1-right-txt button {
+    margin-top: 15px;
+    padding: 5px 20px;
+    background-color: #C31952;
+    border-radius: 15px;
+    border: none;
+    color: #FFFD92;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.div-1-right-txt button:hover {
+    background-color: #db2b66;
+    color: #fffea6;
+}
+
+.div-2 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #DAFFF6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-2-left {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 5em;
+}
+
+.div-2-left h1 {
+    font-size: 55px;
+    text-align: center;
+    color: #006B6C;
+}
+
+.div-2-left p {
+    text-align: center;
+    line-height: 2em;
+    margin-top: 15px;
+    color: #228282;
+    font-size: 20px;
+}
+
+.div-2-right {
+    background-image: url(imagens/1027192.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.div-2-left-car-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.div-2-left-car-btn button {
+    padding: 5px 20px ;
+    border-radius: 10px;
+    border: none;
+    background-color: #006B6C;
+    color: #DAFFF6;
+    font-weight: bold;
+}
+
+.div-2-left-car-btn button:hover {
+    background-color: #027c7e;
+    color: #ddfcf4;
+    cursor: pointer;
+}
+
+.div-3 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #cb2027;
+}
+
+.div-3-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone-pinterest img {
+    height: 50px;
+    width: 50px;
+}
+
+.card-login {
+    height: 85vh;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFE2EB;
+    border-radius: 20px;
+}
+
+.card-login-txt {
+    text-align: center;
+    margin-top: -30px;
+}
+
+.card-login-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.email input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.senha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.senha input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.idade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.idade input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.card-login button {
+    margin-top: 20px;
+    background-color: #cb2027;
+    padding: 10px 50px;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+}
+
+.card-login button:hover {
+    background-color: #db262c;
+    color: rgb(231, 229, 229);
+    cursor: pointer;
+}
+
+.div-3-left {
+    font-size: 2em;
+    color: whitesmoke;
+}
+
