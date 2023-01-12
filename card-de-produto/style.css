@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.area-principal {
+    background-color: #D9CEF9;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.area-left img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 570px;
+}
+
+.area-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.area-right-txt h1 {
+    color: #3C305B;
+    font-family: serif;
+    width: 450px;
+}
+
+.area-right-txt h3 {
+    color: #3C305B;
+}
+
+.area-right button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #3C305B;
+    background-color: transparent;
+    font-weight: bold;
+    color: #3C305B;
+    cursor: pointer;
+    margin-left: -225px;
+}
+
+.area-right button:hover {
+    background-color: #c0b4df;
+    transition: 0.5s;
+}
