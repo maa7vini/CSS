@@ -1,0 +1,234 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #222222;
+}
+
+nav {
+    height: 100px;
+    width: 100vw; 
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.nav-logo img {
+    height: 130px;
+    width: 230px;
+}
+
+.nav-button {
+    margin: 0px 50px;
+}
+
+.nav-button button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E50914;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.nav-button button:hover {
+    background-color: #f00f1a;
+    transition: 0.3s;
+}
+
+header {
+    background-image: url(imagens/BR-pt-20230109-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-txt {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px black;
+}
+
+.sub-titulo {
+    margin-top: 30px;
+    height: 50px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.input-header input {
+    padding: 10px 15px;
+    width: 440px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+}
+
+.input-txt {
+    text-shadow: 1px 1px 1px black;
+}
+
+.input-header button {
+    padding: 13px 15px;
+    background-color: #E50914;
+    color: whitesmoke;
+    border: none;
+    font-weight: bold;
+}
+
+.input-header button:hover {
+    background-color: #ee0f1a;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.aproveite-na-tv {
+    height: 500px;
+    width: 100vw;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 7px;
+}
+
+.left {
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+}
+
+.aproveite-na-tv-txt {
+    width: 500px;
+    height: 200px;
+}
+
+.aproveite-na-tv-p {
+    line-height: 2em;
+    margin-top: 15px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right img {
+    height: 350px;
+    width: 500px;
+}
+
+.assista-quando-quiser {
+    height: 500px;
+    width: 100vw;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 7px;
+}
+
+.assista-quando-quiser-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.assista-quando-quiser-left img {
+    height: 450px;
+    width: 300px;
+}
+
+.assista-quando-quiser-right {
+    color: whitesmoke;
+}
+
+.assista-quando-quiser-txt {
+    font-size: 1.3em;
+}
+
+.assista-quando-quiser-p {
+    font-size: 1.3em;
+    line-height: 2em;
+    margin-top: 15px;
+}
+
+.perfis-para-criancas {
+    height: 500px;
+    width: 100vw;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 7px;
+    color: whitesmoke;
+}
+
+.perfis-para-criancas-txt {
+    font-size: 1.3em;
+}
+
+.perfis-para-criancas-p {
+    width: 500px;
+    margin-top: 15px;
+    font-size: 1.3em;
+    line-height: 2em;
+}
+
+.perfis-para-criancas-right img {
+    margin-top: -50px;
+    height: 450px;
+    width: 520px;
+}
+
+.baixe-series {
+    height: 500px;
+    width: 100vw;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 7px;
+    color: whitesmoke;
+}
+
+.baixe-series-left img {
+    height: 400px;
+    width: 530px;
+    margin-left: -150px;
+}
+
+.baixe-series-txt {
+    font-size: 1.3em;
+}
+
+.baixe-series-p {
+    margin-top: 15px;
+    font-size: 1.3em;
+    line-height: 2em;
+}
