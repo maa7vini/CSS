@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.area-login {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(45deg, blue, rgb(42, 150, 238));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-login img {
+    height: 100px;
+    width: 100px;
+}
+
+.card-login {
+    height: 350px;
+    width: 400px;
+    background-color: rgb(27, 26, 26);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.card-login-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.card-login-input input {
+    padding: 10px 20px;
+    width: 100%;
+    outline: none;
+}
+
+.card-login-input button {
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(to right, blue, rgb(42, 150, 238));
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.card-login-input button:hover {
+    cursor: pointer;
+    color: rgb(196, 193, 193);
+}
+
+.card-login-input a {
+    text-decoration: none;
+}
+
+.card-login-input a:hover {
+    color: #035AA6;
+}
