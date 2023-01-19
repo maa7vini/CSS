@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.area-login {
+    background-image: linear-gradient(to right, #025951, #02735E);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-area img {
+    height: 350px;
+    width: 350px;
+}
+
+.right-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-login {
+    background-image: linear-gradient(to right, #034159, #025951);
+    height: 350px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.input-usuario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #038C3E;
+    font-weight: bold;
+}
+
+.input-usuario input {
+    padding: 10px 20px;
+    outline: none;
+}
+
+.input-senha {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #038C3E;
+    font-weight: bold;
+}
+
+.input-senha input {
+    padding: 10px 20px;
+    outline: none;
+}
+
+.card-login-txt {
+    margin-top: 20px;
+}
+
+.card-login-txt a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.card-login-txt a:hover {
+    text-decoration: underline;
+}
+
+.btn-entrar button {
+    background-color: #038C3E;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.btn-entrar button:hover {
+    cursor: pointer;
+    background-color: #15964d;
+    color: rgb(212, 212, 212);
+}
